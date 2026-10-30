@@ -1,0 +1,261 @@
+/* Genel Sayfa Ayarları */
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Sayfayı iki sütunlu (Sol: İçindekiler, Sağ: İçerikler) yapmak için ana taşıyıcı */
+.ana-icerik-alani {
+    display: flex;
+    gap: 25px; /* Sol menü ile konular arası boşluk */
+    align-items: flex-start;
+}
+
+/* KUTU 0: En Üstteki Diğer Siteye Giden Kutu */
+.ust-site-kutusu {
+    background-color: #34495e;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ust-site-kutusu a {
+    color: #f1c40f;
+    font-size: 16pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ust-site-kutusu a:hover {
+    text-decoration: underline;
+}
+
+/* KUTU 1: Sol Taraftaki İçindekiler Kutusu */
+.sol-menu-kutusu {
+    background-color: #1e272e;
+    border: 3px solid #00d2d3;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px; /* Sabit sol menü genişliği */
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: sticky; /* Sayfada aşağı kaydırırken menünün sabit kalmasını sağlar */
+    top: 20px;
+}
+
+.sol-menu-kutusu h1 {
+    color: #00d2d3;
+    font-size: 16pt;
+    border-bottom: 2px solid #00d2d3;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.sol-menu-kutusu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sol-menu-kutusu li {
+    margin-bottom: 8px;
+}
+
+.sol-menu-kutusu a {
+    color: #ffeaa7;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.sol-menu-kutusu a:hover {
+    text-decoration: underline;
+}
+
+/* Sağ Taraftaki Konu Kutularının Bulunduğu Alan */
+.sag-konular-alani {
+    flex-grow: 1;
+}
+
+/* KUTU 2 (ve Diğerleri): Her Bir Konunun Ayrı Kutusu */
+.konu-kutusu {
+    background-color: #2c3e50;
+    border: 2px solid #1abc9c;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px; /* Kutular arası alt boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.konu-kutusu h1 {
+    color: #1abc9c;
+    font-size: 18pt;
+    margin-top: 0;
+}
+
+.konu-kutusu p {
+    font-size: 14pt;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Görsellerin Kutudan Taşmaması İçin */
+.konu-kutusu img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Başa Dön Linki */
+.basa-don {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.basa-don a {
+    color: #ff7675;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.basa-don a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Genel Sayfa Ayarları */
+body {
+    background-color: cornflowerblue;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Sayfayı iki sütunlu (Sol: İçindekiler, Sağ: İçerikler) yapmak için ana taşıyıcı */
+.ana-icerik-alani {
+    display: flex;
+    gap: 25px; /* Sol menü ile konular arası boşluk */
+    align-items: flex-start;
+}
+
+/* KUTU 0: En Üstteki Diğer Siteye Giden Kutu */
+.ust-site-kutusu {
+    background-color: #34495e;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ust-site-kutusu a {
+    color: #f1c40f;
+    font-size: 16pt;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.ust-site-kutusu a:hover {
+    text-decoration: underline;
+}
+
+/* KUTU 1: Sol Taraftaki İçindekiler Kutusu */
+.sol-menu-kutusu {
+    background-color: #1e272e;
+    border: 3px solid #00d2d3;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px; /* Sabit sol menü genişliği */
+    flex-shrink: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: sticky; /* Sayfada aşağı kaydırırken menünün sabit kalmasını sağlar */
+    top: 20px;
+}
+
+.sol-menu-kutusu h1 {
+    color: #00d2d3;
+    font-size: 16pt;
+    border-bottom: 2px solid #00d2d3;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.sol-menu-kutusu ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sol-menu-kutusu li {
+    margin-bottom: 8px;
+}
+
+.sol-menu-kutusu a {
+    color: #ffeaa7;
+    text-decoration: none;
+    font-size: 11pt;
+}
+
+.sol-menu-kutusu a:hover {
+    text-decoration: underline;
+}
+
+/* Sağ Taraftaki Konu Kutularının Bulunduğu Alan */
+.sag-konular-alani {
+    flex-grow: 1;
+}
+
+/* Her Bir Konunun Ayrı Kutusu */
+.konu-kutusu {
+    background-color: #2c3e50;
+    border: 2px solid #1abc9c;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px; /* Kutular arası alt boşluk */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.konu-kutusu h1 {
+    color: #1abc9c;
+    font-size: 18pt;
+    margin-top: 0;
+}
+
+.konu-kutusu p {
+    font-size: 14pt;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Görsellerin Kutudan Taşmaması İçin */
+.konu-kutusu img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* Başa Dön Linki */
+.basa-don {
+    text-align: right;
+    margin-top: 15px;
+}
+
+.basa-don a {
+    color: #ff7675;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.basa-don a:hover {
+    text-decoration: underline;
+}
